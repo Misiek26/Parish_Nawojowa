@@ -1,0 +1,74 @@
+#content{
+    padding:4vw;
+    font-family: 'Bookman Old Style';
+    background-color: rgb(235, 235, 235);
+    padding:5vw 0 15vw;
+    border:2px solid black;
+}
+h1{
+    font-size:4em;
+    text-align:center;
+    margin-bottom:15px;
+}
+.container{
+    text-align:center;
+}
+p{
+    display:inline;
+    font-size:1.8em;
+    padding:0;
+}
+.budowa{
+    margin:10vw 2vw;
+}
+.budowa h1{
+    font-size:6vw;
+}
+.hour{
+    margin-top:2vw;
+    display:block;
+}
+.wedding{
+    margin-left:20px;
+}
+@media screen and (max-width:1024px) {
+    h1{
+        font-size:3em;
+    }
+    .container{
+        padding:20px;
+    }
+    p{
+        font-size:1.8em;
+    }
+}
+@media screen and (max-width:800px) {
+    #content{
+        font-family: 'Bookman Old Style';
+        background-color: rgb(235, 235, 235);
+        padding:5vw 2.5vw 15vw;
+        border:2px solid black;
+    }
+    h1{
+        font-size:1.8em;
+        text-align:center;
+        margin-bottom:2.5vw;
+    }
+    .container{
+        padding:5px;
+    }
+    p{
+        font-size:1.1em;
+        text-align:center;
+    }
+    .hour{
+        margin-top:20px;
+    }
+    .wedding{
+        margin-left:0;
+        display:block;
+    }
+    .budowa{
+        margin:30vw 2vw 110vw;
+    }
+}

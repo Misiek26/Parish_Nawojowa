@@ -1,0 +1,1 @@
+alert("Wprowadzono niepoprawny login lub hasło!");

@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    box-sizing:border-box;
+}
+#intencje{
+    font-family:'Roboto';
+    border:1px solid grey;
+    width:70%;
+    min-width:800px;
+    margin:100px auto;
+}
+#intencje h3, #intencje h2{
+    text-align:center;
+    font-size:200%;
+}
+.text-container table{
+    border:1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width:100%;
+}
+.text-container th{
+    padding:0.5vw;
+    font-size:1.5vw;
+    border:1px solid black;
+}
+.text-container td{
+    padding:1vw;
+    font-size:1.3vw;
+    border:1px solid black;
+}
+#intencje th p{
+    text-align:center !important;
+}
+.hour p{
+    font-weight:600;
+    text-align:center;
+}
+#confirm{
+    position:sticky;
+    top:0;
+    left:0;
+    background-color: rgba(1,1,1,0.7);
+    padding:25px 0;
+    font-size:2em;
+    font-weight:700;
+    text-align: center;
+    border:1px solid black;
+    font-family: 'Roboto';
+    color:rgb(233, 233, 233);
+    text-shadow: 1px 1px rgb(59, 59, 59);
+}
+form{
+    display:inline;
+}
+input{
+    background:rgb(233, 233, 233);
+    font-size:0.7em;
+    font-weight:550;
+    padding:10px;
+    border-radius:5px 5px;
+}
+input:hover{
+    cursor:pointer;
+}
+#moveUp{
+    display:none;
+}
